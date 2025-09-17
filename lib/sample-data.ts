@@ -157,28 +157,31 @@ export const featureTemplates = {
   'mobile-app': {
     name: 'Mobile App Features',
     features: [
-      { name: 'Push Notifications', reach: 800, impact: 2, confidence: 85, effort: 2 },
-      { name: 'Offline Mode', reach: 300, impact: 2.5, confidence: 70, effort: 4 },
-      { name: 'Biometric Login', reach: 600, impact: 1.5, confidence: 90, effort: 3 },
-      { name: 'Social Sharing', reach: 400, impact: 1, confidence: 80, effort: 1 }
+      { name: 'Mobile Push Notifications', reach: 800, impact: 2, confidence: 85, effort: 2 },
+      { name: 'Offline Data Sync', reach: 300, impact: 2.5, confidence: 70, effort: 4 },
+      { name: 'Biometric Authentication', reach: 600, impact: 1.5, confidence: 90, effort: 3 },
+      { name: 'In-App Camera Integration', reach: 400, impact: 1, confidence: 80, effort: 2 },
+      { name: 'GPS Location Services', reach: 700, impact: 2, confidence: 85, effort: 3 }
     ]
   },
   'saas-platform': {
     name: 'SaaS Platform Features',
     features: [
-      { name: 'Advanced Analytics', reach: 500, impact: 3, confidence: 80, effort: 6 },
-      { name: 'API Integration', reach: 300, impact: 2.5, confidence: 75, effort: 5 },
-      { name: 'Team Collaboration', reach: 700, impact: 2, confidence: 85, effort: 4 },
-      { name: 'Custom Dashboards', reach: 400, impact: 2, confidence: 70, effort: 3 }
+      { name: 'Business Intelligence Dashboard', reach: 500, impact: 3, confidence: 80, effort: 6 },
+      { name: 'REST API Integration', reach: 300, impact: 2.5, confidence: 75, effort: 5 },
+      { name: 'Real-time Team Collaboration', reach: 700, impact: 2, confidence: 85, effort: 4 },
+      { name: 'Custom Report Builder', reach: 400, impact: 2, confidence: 70, effort: 3 },
+      { name: 'Enterprise SSO Integration', reach: 600, impact: 1.5, confidence: 90, effort: 4 }
     ]
   },
   'e-commerce': {
     name: 'E-commerce Features',
     features: [
-      { name: 'One-Click Checkout', reach: 1000, impact: 3, confidence: 90, effort: 3 },
-      { name: 'Product Recommendations', reach: 800, impact: 2, confidence: 75, effort: 4 },
-      { name: 'Live Chat Support', reach: 600, impact: 2.5, confidence: 85, effort: 2 },
-      { name: 'Wishlist Feature', reach: 400, impact: 1.5, confidence: 80, effort: 2 }
+      { name: 'Express Checkout Flow', reach: 1000, impact: 3, confidence: 90, effort: 3 },
+      { name: 'Smart Product Recommendations', reach: 800, impact: 2, confidence: 75, effort: 4 },
+      { name: 'Live Customer Support Chat', reach: 600, impact: 2.5, confidence: 85, effort: 2 },
+      { name: 'Personal Shopping Wishlist', reach: 400, impact: 1.5, confidence: 80, effort: 2 },
+      { name: 'Automated Inventory Tracking', reach: 500, impact: 2.5, confidence: 85, effort: 5 }
     ]
   }
 }

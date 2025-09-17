@@ -177,7 +177,7 @@ export default function Home() {
       return feature
     })
     
-    setFeatures(prev => [...prev, ...newFeatures])
+    setFeatures(newFeatures)
     setShowTemplates(false)
   }
 
